@@ -1,0 +1,18 @@
+Package: curtains
+Type: Package
+Title: Curtain Management
+Authors@R: person(given = "Bill",
+    family = "Ash",
+    role = c("aut", "cre"),
+    email = "ash.william.r@gmail.com")
+Description: Makes an app to control my curtains from bed. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    magrittr,
+    shiny
+Suggests: 
+    testthat

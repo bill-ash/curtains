@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%", 
+  eval = FALSE
+)
+```
+
+# curtains
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of curtains is to build a shiny app that will control my curtains.
+
+## Installation
+
+```{r install}
+#remotes::install_github("bill-ash/curtains")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+Open my curtains from the iphone.
+
+```{r example}
+library(curtains)
+## basic example code
+curtains::makeCurtains()
+```
+
+
