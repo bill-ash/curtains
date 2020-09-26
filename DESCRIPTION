@@ -1,6 +1,7 @@
 Package: curtains
 Type: Package
 Title: Curtain Management
+Version: 0.0.9
 Authors@R: person(given = "Bill",
     family = "Ash",
     role = c("aut", "cre"),
