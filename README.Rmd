@@ -24,7 +24,7 @@ The goal of curtains is to build a shiny app that will control my curtains.
 ## Installation
 
 ```{r install}
-#remotes::install_github("bill-ash/curtains")
+remotes::install_github("bill-ash/curtains")
 ```
 
 ## Example
@@ -39,4 +39,14 @@ library(curtains)
 curtains::makeCurtains()
 ```
 
+
+PI running flask api connected to adafruit stepper hat zip tied to our curtain 
+rod. 
+
+[motor hat](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/overview)
+
+My gf hates me. 
+
+
+![curtains](inst/curtains.jpg)
 

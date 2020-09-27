@@ -13,7 +13,7 @@ curtains.
 ## Installation
 
 ``` r
-#remotes::install_github("bill-ash/curtains")
+remotes::install_github("bill-ash/curtains")
 ```
 
 ## Example
@@ -27,3 +27,13 @@ library(curtains)
 ## basic example code
 curtains::makeCurtains()
 ```
+
+PI running flask api connected to adafruit stepper hat zip tied to our
+curtain rod.
+
+[motor
+hat](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/overview)
+
+My gf hates me.
+
+![curtains](inst/curtains.jpg)

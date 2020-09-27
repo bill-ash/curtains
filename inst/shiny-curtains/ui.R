@@ -1,6 +1,5 @@
 #UI
 fluidPage(
-
   fluidRow(
     column(4,
            h3("Open it.. just a bit...."),
@@ -12,5 +11,4 @@ fluidPage(
            actionButton('close_curtains', 'Close')
     )
   )
-
 )
