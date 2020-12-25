@@ -4,11 +4,27 @@
 # curtains
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
-The goal of curtains is to build a shiny app that will control my
-curtains.
+## Curtains
+
+Automate your curtains with a shiny/ flask application connected to a
+MQTT broker.
+
+## Outline:
+
+-   3d printed module (hangs from curtain rod)
+    -   Rolls along rod to push curtains open and closed
+    -   Stepper motor moves wheels along rods
+    -   Stepper powered by ESP8266
+    -   MQTT (mosquito) for instructions
+    -   AA batteries for power
+-   Roller module printed using Creality CR-10
+    -   Parts designed in open scad
+
+## Printing parts for curtain
+
+3d print the housing for opening and closing the curtains.
 
 ## Installation
 
@@ -16,24 +32,22 @@ curtains.
 remotes::install_github("bill-ash/curtains")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
+## Shiny app
 
 Open my curtains from the iphone.
 
 ``` r
 library(curtains)
-## basic example code
+
+# Start shiny app 
 curtains::makeCurtains()
 ```
 
-PI running flask api connected to adafruit stepper hat zip tied to our
-curtain rod.
+## Middle wear with MQTT
+
+## Parts list
 
 [motor
 hat](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/overview)
-
-My gf hates me.
 
 ![curtains](inst/curtains.jpg)
