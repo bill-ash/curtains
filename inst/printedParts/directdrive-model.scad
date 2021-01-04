@@ -39,16 +39,6 @@ translate([0, 0, -.33 * h])
 cylinder(.5 * h, d * 1.15, d);    
 }
 
-
-// ROLLER 
-module disk(h, d){
-cylinder(h, d, d);
-translate([0, 0, h])
-cylinder(.5 * h, d, d * 1.15);
-translate([0, 0, -.33 * h])
-cylinder(.5 * h, d * 1.15, d);    
-}
-
 // ROLLER  WHEEL 
 translate([-40, 20, 20])
 
@@ -61,11 +51,12 @@ difference(){
     translate([-5.4, -5.4, -10])
     cube([10.9, 10.9, 125]);
 }
+// END ROLLER WHEEL 
 
 // CENTER DRIVER ROD 
 union(){
-    translate([-55,15,22])
-cube([60, 9.8, 2]);
+    translate([-55,15,21.2])
+    cube([60, 10, 2]);
 
 difference() {
 translate([-55,15,15])
@@ -73,16 +64,14 @@ cube([60, 10, 10]);
 
 translate([-90,20,20])
 rotate([0, 90, 0])
-cylinder(h = 100 , d = 6.2, $fn=180);
+cylinder(h = 100 , d = 5.5, $fn=180);
 }
 }
 // END CENTER DRIVE ROD 
 
 
 // STEPPER PLATE 
-
 // ARMS 
-
 // Support RIGHT 
 translate([0, -11.2, -50])
 cube([10, 10, 170]);
@@ -271,6 +260,7 @@ rotate([90,0,0])
 cylinder(h =20,d = 4);
 
 }
+// END BOTTOM CONTROLS 
 
 // ROLLER ARMS 
 

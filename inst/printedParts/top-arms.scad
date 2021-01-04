@@ -3,7 +3,7 @@
 
 // RIGHT ROD ARM 
 rotate([0, 0, 180])
-translate([-15, -4, -30])
+translate([-15, -4, -20])
 difference(){
     
     union(){
@@ -31,9 +31,10 @@ cylinder(h = 15, d= 3.9, $fn=180);
 }
 // END RIGHT ARM 
 
+
 // LEFT ROD ARM 
 rotate([0, 0, 180])
-translate([-15, -58, -30])
+translate([-15, -58, -20])
 difference(){
     
     union(){

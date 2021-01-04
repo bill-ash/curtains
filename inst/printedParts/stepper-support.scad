@@ -1,7 +1,6 @@
+
 // STEPPER PLATE 
-
 // ARMS 
-
 // Support RIGHT 
 translate([0, -11.2, -50])
 cube([10, 10, 170]);
@@ -53,4 +52,3 @@ cylinder(h = 20, d = 4.1, $fn=180);
 
 }
 // END STEPPER PLATE 
-
